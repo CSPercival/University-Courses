@@ -1,0 +1,16 @@
+traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+ 1  router.lan (172.224.0.1)  2.827 ms  2.791 ms  2.778 ms
+ 2  192.168.5.254 (192.168.5.254)  2.767 ms  2.756 ms *
+ 3  * * *
+ 4  matchem-vprn509-curie-uni.wask.wroc.pl (156.17.252.26)  2.764 ms * *
+ 5  uwrvprn509-unir2.wask.wroc.pl (156.17.252.37)  3.150 ms * *
+ 6  unir2-uwrvprn509.wask.wroc.pl (156.17.252.36)  3.952 ms * *
+ 7  wct2-uni2.wask.wroc.pl (156.17.254.104)  1.775 ms * *
+ 8  centrum-wct2.wask.wroc.pl (156.17.254.71)  4.200 ms * *
+ 9  156.17.254.101 (156.17.254.101)  4.138 ms * *
+10  156.17.251.0 (156.17.251.0)  56.029 ms  51.586 ms  51.563 ms
+11  z-Wroclaw-COM.poznan-gw2.rtr.pionier.gov.pl (212.191.239.42)  51.556 ms  19.456 ms  20.050 ms
+12  core2.ams.net.google.com (80.249.209.100)  21.134 ms  41.436 ms  41.366 ms
+13  74.125.242.187 (74.125.242.187)  41.338 ms  38.859 ms *
+14  142.251.48.179 (142.251.48.179)  38.692 ms * *
+15  dns.google (8.8.8.8)  34.049 ms * *

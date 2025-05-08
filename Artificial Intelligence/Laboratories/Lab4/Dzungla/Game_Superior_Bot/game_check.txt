@@ -1,0 +1,2036 @@
+GRA: 96
+G -> P1: UGO
+P1 -> G: IDO 2 3
+........
+........
+...o....
+...oo...
+...o#...
+........
+........
+........
+G -> P2: HEDID 2 3
+P2 -> G: IDO 2 2
+........
+........
+..#o....
+...#o...
+...o#...
+........
+........
+........
+G -> P1: HEDID 2 2
+P1 -> G: IDO 5 4
+........
+........
+..#o....
+...#o...
+...oo...
+....o...
+........
+........
+G -> P2: HEDID 5 4
+P2 -> G: IDO 1 3
+........
+...#....
+..##....
+...#o...
+...oo...
+....o...
+........
+........
+G -> P1: HEDID 1 3
+P1 -> G: IDO 0 3
+...o....
+...o....
+..#o....
+...oo...
+...oo...
+....o...
+........
+........
+G -> P2: HEDID 0 3
+P2 -> G: IDO 0 4
+...o#...
+...#....
+..#o....
+...oo...
+...oo...
+....o...
+........
+........
+G -> P1: HEDID 0 4
+P1 -> G: IDO 0 5
+...ooo..
+...#....
+..#o....
+...oo...
+...oo...
+....o...
+........
+........
+G -> P2: HEDID 0 5
+P2 -> G: IDO 5 5
+...ooo..
+...#....
+..#o....
+...#o...
+...o#...
+....o#..
+........
+........
+G -> P1: HEDID 5 5
+P1 -> G: IDO 4 5
+...ooo..
+...#....
+..#o....
+...#o...
+...ooo..
+....o#..
+........
+........
+G -> P2: HEDID 4 5
+P2 -> G: IDO 5 3
+...ooo..
+...#....
+..#o....
+...#o...
+...#oo..
+...###..
+........
+........
+G -> P1: HEDID 5 3
+P1 -> G: IDO 3 2
+...ooo..
+...#....
+..#o....
+..ooo...
+...#oo..
+...###..
+........
+........
+G -> P2: HEDID 3 2
+P2 -> G: IDO 2 5
+...ooo..
+...#....
+..#o.#..
+..oo#...
+...#oo..
+...###..
+........
+........
+G -> P1: HEDID 2 5
+P1 -> G: IDO 2 4
+...ooo..
+...#....
+..#oo#..
+..ooo...
+...#oo..
+...###..
+........
+........
+G -> P2: HEDID 2 4
+P2 -> G: IDO 2 1
+...ooo..
+...#....
+.##oo#..
+..#oo...
+...#oo..
+...###..
+........
+........
+G -> P1: HEDID 2 1
+P1 -> G: IDO 4 1
+...ooo..
+...#....
+.##oo#..
+..ooo...
+.o.#oo..
+...###..
+........
+........
+G -> P2: HEDID 4 1
+P2 -> G: IDO 1 4
+...ooo..
+...##...
+.##o##..
+..oo#...
+.o.##o..
+...###..
+........
+........
+G -> P1: HEDID 1 4
+P1 -> G: IDO 3 5
+...ooo..
+...##...
+.##o##..
+..oooo..
+.o.##o..
+...###..
+........
+........
+G -> P2: HEDID 3 5
+P2 -> G: IDO 5 0
+...ooo..
+...##...
+.#####..
+..#ooo..
+.#.##o..
+#..###..
+........
+........
+G -> P1: HEDID 5 0
+P1 -> G: IDO 1 2
+...ooo..
+..o##...
+.##o##..
+..#ooo..
+.#.##o..
+#..###..
+........
+........
+G -> P2: HEDID 1 2
+P2 -> G: IDO 0 2
+..#ooo..
+..###...
+.##o##..
+..#ooo..
+.#.##o..
+#..###..
+........
+........
+G -> P1: HEDID 0 2
+P1 -> G: IDO 0 1
+.ooooo..
+..o##...
+.##o##..
+..#ooo..
+.#.##o..
+#..###..
+........
+........
+G -> P2: HEDID 0 1
+P2 -> G: IDO 4 2
+.ooooo..
+..o##...
+.##o##..
+..##oo..
+.####o..
+#..###..
+........
+........
+G -> P1: HEDID 4 2
+P1 -> G: IDO 3 1
+.ooooo..
+..oo#...
+.#oo##..
+.ooooo..
+.####o..
+#..###..
+........
+........
+G -> P2: HEDID 3 1
+P2 -> G: IDO 2 0
+.ooooo..
+..oo#...
+##oo##..
+.#oooo..
+.####o..
+#..###..
+........
+........
+G -> P1: HEDID 2 0
+P1 -> G: IDO 4 0
+.ooooo..
+..oo#...
+##oo##..
+.ooooo..
+oooooo..
+#..###..
+........
+........
+G -> P2: HEDID 4 0
+P2 -> G: IDO 2 6
+.ooooo..
+..oo#...
+##oo###.
+.oooo#..
+oooo#o..
+#..###..
+........
+........
+G -> P1: HEDID 2 6
+P1 -> G: IDO 3 0
+.ooooo..
+..oo#...
+#ooo###.
+ooooo#..
+oooo#o..
+#..###..
+........
+........
+G -> P2: HEDID 3 0
+P2 -> G: IDO 3 6
+.ooooo..
+..oo#...
+#ooo###.
+ooooo##.
+oooo##..
+#..###..
+........
+........
+G -> P1: HEDID 3 6
+P1 -> G: IDO 2 7
+.ooooo..
+..oo#...
+#ooooooo
+ooooo##.
+oooo##..
+#..###..
+........
+........
+G -> P2: HEDID 2 7
+P2 -> G: IDO 1 7
+.ooooo..
+..oo#..#
+#ooooo#o
+ooooo##.
+oooo##..
+#..###..
+........
+........
+G -> P1: HEDID 1 7
+P1 -> G: IDO 0 7
+.ooooo.o
+..oo#..o
+#ooooo#o
+ooooo##.
+oooo##..
+#..###..
+........
+........
+G -> P2: HEDID 0 7
+P2 -> G: IDO 1 0
+.ooooo.o
+#.oo#..o
+##oooo#o
+oo#oo##.
+ooo###..
+#..###..
+........
+........
+G -> P1: HEDID 1 0
+P1 -> G: IDO 1 1
+.ooooo.o
+#ooo#..o
+#ooooo#o
+oo#oo##.
+ooo###..
+#..###..
+........
+........
+G -> P2: HEDID 1 1
+P2 -> G: IDO 0 0
+#ooooo.o
+##oo#..o
+#o#ooo#o
+oo##o##.
+ooo###..
+#..###..
+........
+........
+G -> P1: HEDID 0 0
+P1 -> G: IDO 6 3
+#ooooo.o
+##oo#..o
+#o#ooo#o
+oo#oo#o.
+oooo#o..
+#..oo#..
+...o....
+........
+G -> P2: HEDID 6 3
+P2 -> G: IDO 3 7
+#ooooo.o
+##oo#..o
+#o#ooo#o
+oo#oo###
+oooo#o..
+#..oo#..
+...o....
+........
+G -> P1: HEDID 3 7
+P1 -> G: IDO 4 7
+#ooooo.o
+##oo#..o
+#o#ooo#o
+oo#oo#oo
+oooo#o.o
+#..oo#..
+...o....
+........
+G -> P2: HEDID 4 7
+P2 -> G: IDO 5 2
+#ooooo.o
+##oo#..o
+#o#ooo#o
+oo#oo#oo
+oo#o#o.o
+#.####..
+...o....
+........
+G -> P1: HEDID 5 2
+P1 -> G: IDO 4 6
+#ooooo.o
+##oo#..o
+#o#ooo#o
+oo#ooooo
+oo#o#ooo
+#.####..
+...o....
+........
+G -> P2: HEDID 4 6
+P2 -> G: IDO 0 6
+#######o
+##oo#..o
+#o#ooo#o
+oo#ooooo
+oo#o#ooo
+#.####..
+...o....
+........
+G -> P1: HEDID 0 6
+P1 -> G: IDO 6 2
+#######o
+##oo#..o
+#ooooo#o
+oooooooo
+oooooooo
+#.oo##..
+..oo....
+........
+G -> P2: HEDID 6 2
+P2 -> G: IDO 6 4
+#######o
+##oo#..o
+#ooooo#o
+o#oooooo
+oo#ooooo
+#.o###..
+..oo#...
+........
+G -> P1: HEDID 6 4
+P1 -> G: IDO 1 5
+#######o
+##oooo.o
+#ooooooo
+o#oooooo
+oo#ooooo
+#.o###..
+..oo#...
+........
+G -> P2: HEDID 1 5
+P2 -> G: IDO 5 6
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+oo#oo#oo
+#.o####.
+..oo#...
+........
+G -> P1: HEDID 5 6
+P1 -> G: IDO 6 5
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+oo#ooooo
+#.o#ooo.
+..oooo..
+........
+G -> P2: HEDID 6 5
+P2 -> G: IDO 7 2
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+oo#ooooo
+#.##ooo.
+..#ooo..
+..#.....
+G -> P1: HEDID 7 2
+P1 -> G: IDO 6 1
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+oo#ooooo
+#.o#ooo.
+.ooooo..
+..#.....
+G -> P2: HEDID 6 1
+P2 -> G: IDO 7 4
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+oo#o#ooo
+#.o##oo.
+.ooo#o..
+..#.#...
+G -> P1: HEDID 7 4
+P1 -> G: IDO 5 1
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+oooo#ooo
+#oo##oo.
+.ooo#o..
+..#.#...
+G -> P2: HEDID 5 1
+P2 -> G: IDO 7 0
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+ooo##ooo
+#o###oo.
+.#oo#o..
+#.#.#...
+G -> P1: HEDID 7 0
+P1 -> G: IDO 6 0
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+ooo##ooo
+oo###oo.
+oooo#o..
+#.#.#...
+G -> P2: HEDID 6 0
+P2 -> G: IDO 7 1
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+o#o##ooo
+o####oo.
+o##o#o..
+###.#...
+G -> P1: HEDID 7 1
+P1 -> G: IDO 7 5
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+o#o##ooo
+o##o#oo.
+o##ooo..
+###.#o..
+G -> P2: HEDID 7 5
+P2 -> G: IDO 7 3
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+o#o##ooo
+o####oo.
+o###oo..
+#####o..
+G -> P1: HEDID 7 3
+P1 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 1
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+o#o##ooo
+o####oo.
+o###oo..
+#####o..
+G -> P2: HEDID -1 -1
+P2 -> G: IDO 7 6
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+o#o##ooo
+o####oo.
+o###o#..
+#######.
+G -> P1: HEDID 7 6
+P1 -> G: IDO 6 6
+#######o
+###ooo.o
+#oo#oooo
+o#oo#ooo
+o#o##ooo
+o####oo.
+o###ooo.
+#######.
+G -> P2: HEDID 6 6
+P2 -> G: IDO 5 7
+#######o
+####oo.o
+#oo##ooo
+o#oo##oo
+o#o##o#o
+o#######
+o###oo#.
+#######.
+G -> P1: HEDID 5 7
+P1 -> G: IDO 7 7
+#######o
+####oo.o
+#oo##ooo
+o#oo##oo
+o#o#oo#o
+o####o##
+o###ooo.
+#######o
+G -> P2: HEDID 7 7
+P2 -> G: IDO 6 7
+#######o
+####oo.o
+#oo##ooo
+o#oo##oo
+o#o#oo#o
+o####o##
+o#######
+#######o
+G -> P1: HEDID 6 7
+P1 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 1
+#######o
+####oo.o
+#oo##ooo
+o#oo##oo
+o#o#oo#o
+o####o##
+o#######
+#######o
+G -> P2: HEDID -1 -1
+P2 -> G: IDO 1 6
+#######o
+#######o
+#oo####o
+o#oo###o
+o#o#oo#o
+o####o##
+o#######
+#######o
+G -> P1: HEDID 1 6
+P1 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 1
+#######o
+#######o
+#oo####o
+o#oo###o
+o#o#oo#o
+o####o##
+o#######
+#######o
+G -> P2: HEDID -1 -1
+P2 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 2
+#######o
+#######o
+#oo####o
+o#oo###o
+o#o#oo#o
+o####o##
+o#######
+#######o
+Game over
+Score: -28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GRA: 993
+G -> P1: UGO
+P1 -> G: IDO 2 3
+........
+........
+...o....
+...oo...
+...o#...
+........
+........
+........
+G -> P2: HEDID 2 3
+P2 -> G: IDO 2 2
+........
+........
+..#o....
+...#o...
+...o#...
+........
+........
+........
+G -> P1: HEDID 2 2
+P1 -> G: IDO 4 5
+........
+........
+..#o....
+...#o...
+...ooo..
+........
+........
+........
+G -> P2: HEDID 4 5
+P2 -> G: IDO 3 5
+........
+........
+..#o....
+...###..
+...ooo..
+........
+........
+........
+G -> P1: HEDID 3 5
+P1 -> G: IDO 2 4
+........
+........
+..#oo...
+...#o#..
+...ooo..
+........
+........
+........
+G -> P2: HEDID 2 4
+P2 -> G: IDO 1 3
+........
+...#....
+..###...
+...#o#..
+...ooo..
+........
+........
+........
+G -> P1: HEDID 1 3
+P1 -> G: IDO 1 4
+........
+...#o...
+..##o...
+...#o#..
+...ooo..
+........
+........
+........
+G -> P2: HEDID 1 4
+P2 -> G: IDO 0 5
+.....#..
+...##...
+..##o...
+...#o#..
+...ooo..
+........
+........
+........
+G -> P1: HEDID 0 5
+P1 -> G: IDO 1 2
+.....#..
+..o##...
+..#oo...
+...#o#..
+...ooo..
+........
+........
+........
+G -> P2: HEDID 1 2
+P2 -> G: IDO 2 5
+.....#..
+..o##...
+..####..
+...#o#..
+...ooo..
+........
+........
+........
+G -> P1: HEDID 2 5
+P1 -> G: IDO 1 5
+.....#..
+..oooo..
+..###o..
+...#oo..
+...ooo..
+........
+........
+........
+G -> P2: HEDID 1 5
+P2 -> G: IDO 0 3
+...#.#..
+..o#oo..
+..###o..
+...#oo..
+...ooo..
+........
+........
+........
+G -> P1: HEDID 0 3
+P1 -> G: IDO 0 2
+..o#.#..
+..oooo..
+..##oo..
+...#oo..
+...ooo..
+........
+........
+........
+G -> P2: HEDID 0 2
+P2 -> G: IDO 0 4
+..o###..
+..o#oo..
+..##oo..
+...#oo..
+...ooo..
+........
+........
+........
+G -> P1: HEDID 0 4
+P1 -> G: IDO 2 1
+..o###..
+..o#oo..
+.ooooo..
+...#oo..
+...ooo..
+........
+........
+........
+G -> P2: HEDID 2 1
+P2 -> G: IDO 0 1
+.#####..
+..o#oo..
+.ooooo..
+...#oo..
+...ooo..
+........
+........
+........
+G -> P1: HEDID 0 1
+P1 -> G: IDO 4 2
+.#####..
+..o#oo..
+.ooooo..
+...ooo..
+..oooo..
+........
+........
+........
+G -> P2: HEDID 4 2
+P2 -> G: IDO 1 1
+.#####..
+.###oo..
+.ooooo..
+...ooo..
+..oooo..
+........
+........
+........
+G -> P1: HEDID 1 1
+P1 -> G: IDO 0 0
+o#####..
+.o##oo..
+.ooooo..
+...ooo..
+..oooo..
+........
+........
+........
+G -> P2: HEDID 0 0
+P2 -> G: IDO 2 0
+o#####..
+.###oo..
+#ooooo..
+...ooo..
+..oooo..
+........
+........
+........
+G -> P1: HEDID 2 0
+P1 -> G: IDO 0 6
+ooooooo.
+.###oo..
+#ooooo..
+...ooo..
+..oooo..
+........
+........
+........
+G -> P2: HEDID 0 6
+P2 -> G: IDO 1 6
+ooooooo.
+.######.
+#ooooo..
+...ooo..
+..oooo..
+........
+........
+........
+G -> P1: HEDID 1 6
+P1 -> G: IDO 2 6
+ooooooo.
+.####oo.
+#oooooo.
+...ooo..
+..oooo..
+........
+........
+........
+G -> P2: HEDID 2 6
+P2 -> G: IDO 1 7
+ooooooo.
+.#######
+#oooooo.
+...ooo..
+..oooo..
+........
+........
+........
+G -> P1: HEDID 1 7
+P1 -> G: IDO 2 7
+ooooooo.
+.#####o#
+#ooooooo
+...ooo..
+..oooo..
+........
+........
+........
+G -> P2: HEDID 2 7
+P2 -> G: IDO 3 2
+ooooooo.
+.#####o#
+#o##oooo
+..#ooo..
+..oooo..
+........
+........
+........
+G -> P1: HEDID 3 2
+P1 -> G: IDO 1 0
+ooooooo.
+ooooooo#
+#o##oooo
+..#ooo..
+..oooo..
+........
+........
+........
+G -> P2: HEDID 1 0
+P2 -> G: IDO 3 6
+ooooooo.
+ooooooo#
+#o##oooo
+..#####.
+..oooo..
+........
+........
+........
+G -> P1: HEDID 3 6
+P1 -> G: IDO 3 1
+ooooooo.
+ooooooo#
+#oo#oooo
+.o#####.
+..oooo..
+........
+........
+........
+G -> P2: HEDID 3 1
+P2 -> G: IDO 0 7
+ooooooo#
+oooooo##
+#oo#o#oo
+.o#####.
+..oooo..
+........
+........
+........
+G -> P1: HEDID 0 7
+P1 -> G: IDO 4 1
+ooooooo#
+oooooo##
+#oooo#oo
+.oo####.
+.ooooo..
+........
+........
+........
+G -> P2: HEDID 4 1
+P2 -> G: IDO 3 0
+ooooooo#
+oooooo##
+#oooo#oo
+#######.
+.ooooo..
+........
+........
+........
+G -> P1: HEDID 3 0
+P1 -> G: IDO 4 6
+ooooooo#
+oooooo##
+#oooo#oo
+#####oo.
+.oooooo.
+........
+........
+........
+G -> P2: HEDID 4 6
+P2 -> G: IDO 5 3
+ooooooo#
+oooooo##
+#oooo##o
+######o.
+.o###oo.
+...#....
+........
+........
+G -> P1: HEDID 5 3
+P1 -> G: IDO 4 0
+ooooooo#
+oooooo##
+ooooo##o
+oo####o.
+oo###oo.
+...#....
+........
+........
+G -> P2: HEDID 4 0
+P2 -> G: IDO 3 7
+ooooooo#
+oooooo##
+ooooo###
+oo######
+oo###oo.
+...#....
+........
+........
+G -> P1: HEDID 3 7
+P1 -> G: IDO 5 5
+ooooooo#
+oooooo##
+ooooo###
+oo#o####
+oo##ooo.
+...#.o..
+........
+........
+G -> P2: HEDID 5 5
+P2 -> G: IDO 4 7
+ooooooo#
+oooooo##
+ooooo###
+oo#o####
+oo######
+...#.o..
+........
+........
+G -> P1: HEDID 4 7
+P1 -> G: IDO 6 4
+ooooooo#
+oooooo##
+ooooo###
+oo#o####
+ooo#####
+...o.o..
+....o...
+........
+G -> P2: HEDID 6 4
+P2 -> G: IDO 6 6
+ooooooo#
+oooooo##
+ooooo###
+oo#o####
+ooo#####
+...o.#..
+....o.#.
+........
+G -> P1: HEDID 6 6
+P1 -> G: IDO 5 7
+ooooooo#
+oooooo##
+ooooo###
+oo#o#o##
+ooo###o#
+...o.#.o
+....o.#.
+........
+G -> P2: HEDID 5 7
+P2 -> G: IDO 5 6
+ooooooo#
+oooooo##
+ooooo###
+oo#o#o##
+ooo#####
+...o.##o
+....o.#.
+........
+G -> P1: HEDID 5 6
+P1 -> G: IDO 7 7
+ooooooo#
+oooooo##
+ooooo###
+oo#o#o##
+ooo#o###
+...o.o#o
+....o.o.
+.......o
+G -> P2: HEDID 7 7
+P2 -> G: IDO 6 7
+ooooooo#
+oooooo##
+ooooo###
+oo#o#o##
+ooo#o###
+...o.o##
+....o.o#
+.......o
+G -> P1: HEDID 6 7
+P1 -> G: IDO 5 4
+ooooooo#
+oooooo##
+ooooo###
+oooo#o##
+ooooo###
+...ooo##
+....o.o#
+.......o
+G -> P2: HEDID 5 4
+P2 -> G: IDO 5 2
+ooooooo#
+oooooo##
+ooooo###
+oooo#o##
+ooo#o###
+..######
+....o.o#
+.......o
+G -> P1: HEDID 5 2
+P1 -> G: IDO 6 2
+ooooooo#
+oooooo##
+ooooo###
+oooo#o##
+ooo#o###
+..oo####
+..o.o.o#
+.......o
+G -> P2: HEDID 6 2
+P2 -> G: IDO 6 5
+ooooooo#
+oooooo##
+ooooo###
+oooo#o##
+ooo#o###
+..oo####
+..o.o###
+.......o
+G -> P1: HEDID 6 5
+P1 -> G: IDO 7 6
+ooooooo#
+ooooooo#
+ooooo#o#
+oooo#oo#
+ooooo#o#
+..ooo#o#
+..o.ooo#
+......oo
+G -> P2: HEDID 7 6
+P2 -> G: IDO 5 1
+ooooooo#
+ooooooo#
+ooooo#o#
+oooo#oo#
+ooooo#o#
+.#####o#
+..o.ooo#
+......oo
+G -> P1: HEDID 5 1
+P1 -> G: IDO 5 0
+ooooooo#
+ooooooo#
+ooooo#o#
+oooo#oo#
+ooooo#o#
+ooooooo#
+..o.ooo#
+......oo
+G -> P2: HEDID 5 0
+P2 -> G: IDO 6 1
+ooooooo#
+ooooooo#
+ooooo#o#
+oooo#oo#
+ooo#o#o#
+oo#oooo#
+.#o.ooo#
+......oo
+G -> P1: HEDID 6 1
+P1 -> G: IDO 7 0
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo#o#
+ooooooo#
+.oo.ooo#
+o.....oo
+G -> P2: HEDID 7 0
+P2 -> G: IDO 6 3
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo#o#
+oooo#oo#
+.oo#####
+o.....oo
+G -> P1: HEDID 6 3
+P1 -> G: IDO 7 4
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo#o#
+ooooooo#
+.ooooo##
+o...o.oo
+G -> P2: HEDID 7 4
+P2 -> G: IDO 6 0
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo#o#
+ooooooo#
+########
+o...o.oo
+G -> P1: HEDID 6 0
+P1 -> G: IDO 7 1
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo#o#
+ooooooo#
+#oo#####
+oo..o.oo
+G -> P2: HEDID 7 1
+P2 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 2
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo#o#
+ooooooo#
+#oo#####
+oo..o.oo
+G -> P1: HEDID -1 -1
+P1 -> G: IDO 7 5
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo#o#
+ooooooo#
+#oo#oo##
+oo..oooo
+G -> P2: HEDID 7 5
+P2 -> G: IDO 7 3
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo###
+ooooo#o#
+#oo##o##
+oo.#oooo
+G -> P1: HEDID 7 3
+P1 -> G: IDO 7 2
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo###
+ooooo#o#
+#ooo#o##
+oooooooo
+G -> P2: HEDID 7 2
+P2 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 2
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo###
+ooooo#o#
+#ooo#o##
+oooooooo
+G -> P1: HEDID -1 -1
+P1 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 1
+ooooooo#
+ooooooo#
+ooooooo#
+ooooooo#
+ooooo###
+ooooo#o#
+#ooo#o##
+oooooooo
+Game over
+Score: 38
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GRA: 53
+G -> P1: UGO
+P1 -> G: IDO 5 4
+........
+........
+........
+...#o...
+...oo...
+....o...
+........
+........
+G -> P2: HEDID 5 4
+P2 -> G: IDO 5 3
+........
+........
+........
+...#o...
+...#o...
+...#o...
+........
+........
+G -> P1: HEDID 5 3
+P1 -> G: IDO 2 2
+........
+........
+..o.....
+...oo...
+...#o...
+...#o...
+........
+........
+G -> P2: HEDID 2 2
+P2 -> G: IDO 4 5
+........
+........
+..o.....
+...oo...
+...###..
+...#o...
+........
+........
+G -> P1: HEDID 4 5
+P1 -> G: IDO 5 6
+........
+........
+..o.....
+...oo...
+...##o..
+...#o.o.
+........
+........
+G -> P2: HEDID 5 6
+P2 -> G: IDO 5 5
+........
+........
+..o.....
+...oo...
+...##o..
+...###o.
+........
+........
+G -> P1: HEDID 5 5
+P1 -> G: IDO 6 6
+........
+........
+..o.....
+...oo...
+...#oo..
+...##oo.
+......o.
+........
+G -> P2: HEDID 6 6
+P2 -> G: IDO 5 7
+........
+........
+..o.....
+...oo...
+...#oo..
+...#####
+......o.
+........
+G -> P1: HEDID 5 7
+P1 -> G: IDO 6 3
+........
+........
+..o.....
+...oo...
+...ooo..
+...oo###
+...o..o.
+........
+G -> P2: HEDID 6 3
+P2 -> G: IDO 7 6
+........
+........
+..o.....
+...oo...
+...ooo..
+...oo###
+...o..#.
+......#.
+G -> P1: HEDID 7 6
+P1 -> G: IDO 7 7
+........
+........
+..o.....
+...oo...
+...ooo..
+...ooo##
+...o..o.
+......#o
+G -> P2: HEDID 7 7
+P2 -> G: IDO 7 5
+........
+........
+..o.....
+...oo...
+...ooo..
+...ooo##
+...o..#.
+.....##o
+G -> P1: HEDID 7 5
+P1 -> G: IDO 6 7
+........
+........
+..o.....
+...oo...
+...ooo..
+...oooo#
+...o..#o
+.....##o
+G -> P2: HEDID 6 7
+P2 -> G: IDO 1 1
+........
+.#......
+..#.....
+...#o...
+...o#o..
+...oo#o#
+...o..#o
+.....##o
+G -> P1: HEDID 1 1
+P1 -> G: IDO 0 0
+o.......
+.o......
+..o.....
+...oo...
+...ooo..
+...oooo#
+...o..oo
+.....##o
+G -> P2: HEDID 0 0
+P2 -> G: IDO 5 2
+o.......
+.o......
+..o.....
+...oo...
+...ooo..
+..######
+...o..oo
+.....##o
+G -> P1: HEDID 5 2
+P1 -> G: IDO 6 4
+o.......
+.o......
+..o.....
+...oo...
+...ooo..
+..##o###
+...oo.oo
+.....##o
+G -> P2: HEDID 6 4
+P2 -> G: IDO 2 3
+o.......
+.o......
+..o#....
+...##...
+...#o#..
+..##o###
+...oo.oo
+.....##o
+G -> P1: HEDID 2 3
+P1 -> G: IDO 4 2
+o.......
+.o......
+..o#....
+...##...
+..ooo#..
+..#oo###
+...oo.oo
+.....##o
+G -> P2: HEDID 4 2
+P2 -> G: IDO 7 4
+o.......
+.o......
+..o#....
+...##...
+..oo##..
+..#o####
+...##.oo
+....###o
+G -> P1: HEDID 7 4
+P1 -> G: IDO 1 2
+o.......
+.oo.....
+..oo....
+...#o...
+..oo#o..
+..#o##o#
+...##.oo
+....###o
+G -> P2: HEDID 1 2
+P2 -> G: IDO 2 4
+o.......
+.oo.....
+..oo#...
+...##...
+..oo#o..
+..#o##o#
+...##.oo
+....###o
+G -> P1: HEDID 2 4
+P1 -> G: IDO 6 5
+o.......
+.oo.....
+..oo#...
+...##...
+..oo#o..
+..#oooo#
+...##ooo
+....###o
+G -> P2: HEDID 6 5
+P2 -> G: IDO 4 6
+o.......
+.oo.....
+..oo#...
+...##...
+..oo###.
+..#oo###
+...##o#o
+....###o
+G -> P1: HEDID 4 6
+P1 -> G: IDO 4 7
+o.......
+.oo.....
+..oo#...
+...##...
+..oooooo
+..#oo#oo
+...##o#o
+....###o
+G -> P2: HEDID 4 7
+P2 -> G: IDO 3 6
+o.......
+.oo.....
+..oo#...
+...##.#.
+..ooo##o
+..#o###o
+...##o#o
+....###o
+G -> P1: HEDID 3 6
+P1 -> G: IDO 7 3
+o.......
+.oo.....
+..oo#...
+...##.#.
+..ooo##o
+..#o###o
+...o#o#o
+...ooooo
+G -> P2: HEDID 7 3
+P2 -> G: IDO 2 1
+o.......
+.oo.....
+.####...
+...##.#.
+..ooo##o
+..#o###o
+...o#o#o
+...ooooo
+G -> P1: HEDID 2 1
+P1 -> G: IDO 6 2
+o.......
+.oo.....
+.####...
+...##.#.
+..ooo##o
+..oo###o
+..oo#o#o
+...ooooo
+G -> P2: HEDID 6 2
+P2 -> G: IDO 3 1
+o.......
+.oo.....
+.####...
+.#.##.#.
+..#oo##o
+..o####o
+..oo#o#o
+...ooooo
+G -> P1: HEDID 3 1
+P1 -> G: IDO 3 2
+o.......
+.oo.....
+.#o##...
+.#o##.#.
+..ooo##o
+..o####o
+..oo#o#o
+...ooooo
+G -> P2: HEDID 3 2
+P2 -> G: IDO 0 1
+o#......
+.##.....
+.#o##...
+.#o##.#.
+..ooo##o
+..o####o
+..oo#o#o
+...ooooo
+G -> P1: HEDID 0 1
+P1 -> G: IDO 0 2
+ooo.....
+.#o.....
+.#o##...
+.#o##.#.
+..ooo##o
+..o####o
+..oo#o#o
+...ooooo
+G -> P2: HEDID 0 2
+P2 -> G: IDO 0 3
+ooo#....
+.##.....
+.#o##...
+.#o##.#.
+..ooo##o
+..o####o
+..oo#o#o
+...ooooo
+G -> P1: HEDID 0 3
+P1 -> G: IDO 1 5
+ooo#....
+.##..o..
+.#o#o...
+.#oo#.#.
+..ooo##o
+..o####o
+..oo#o#o
+...ooooo
+G -> P2: HEDID 1 5
+P2 -> G: IDO 4 1
+ooo#....
+.##..o..
+.#o#o...
+.##o#.#.
+.######o
+..o####o
+..oo#o#o
+...ooooo
+G -> P1: HEDID 4 1
+P1 -> G: IDO 1 0
+ooo#....
+o##..o..
+.oo#o...
+.#oo#.#.
+.##o###o
+..o#o##o
+..oo#o#o
+...ooooo
+G -> P2: HEDID 1 0
+P2 -> G: IDO 7 2
+ooo#....
+o##..o..
+.oo#o...
+.#oo#.#.
+.##o###o
+..#####o
+..###o#o
+..#ooooo
+G -> P1: HEDID 7 2
+P1 -> G: IDO 2 6
+ooo#....
+o##..o..
+.oo#o.o.
+.#oo#.o.
+.##o##oo
+..####oo
+..###ooo
+..#ooooo
+G -> P2: HEDID 2 6
+P2 -> G: IDO 2 0
+ooo#....
+o##..o..
+####o.o.
+.#oo#.o.
+.##o##oo
+..####oo
+..###ooo
+..#ooooo
+G -> P1: HEDID 2 0
+P1 -> G: IDO 1 4
+ooo#....
+o##.oo..
+###oo.o.
+.#oo#.o.
+.##o##oo
+..####oo
+..###ooo
+..#ooooo
+G -> P2: HEDID 1 4
+P2 -> G: IDO 0 6
+ooo#..#.
+o##.o#..
+###o#.o.
+.#o##.o.
+.##o##oo
+..####oo
+..###ooo
+..#ooooo
+G -> P1: HEDID 0 6
+P1 -> G: IDO 0 4
+ooooo.#.
+o##.oo..
+###o#.o.
+.#o##.o.
+.##o##oo
+..####oo
+..###ooo
+..#ooooo
+G -> P2: HEDID 0 4
+P2 -> G: IDO 0 5
+ooooo##.
+o##.#o..
+#####.o.
+.####.o.
+.##o##oo
+..####oo
+..###ooo
+..#ooooo
+G -> P1: HEDID 0 5
+P1 -> G: IDO 7 1
+ooooo##.
+o##.#o..
+#####.o.
+.####.o.
+.##o##oo
+..####oo
+..###ooo
+.ooooooo
+G -> P2: HEDID 7 1
+P2 -> G: IDO 2 5
+ooooo##.
+o##.##..
+######o.
+.####.o.
+.##o##oo
+..####oo
+..###ooo
+.ooooooo
+G -> P1: HEDID 2 5
+P1 -> G: IDO 0 7
+oooooooo
+o##.##..
+######o.
+.####.o.
+.##o##oo
+..####oo
+..###ooo
+.ooooooo
+G -> P2: HEDID 0 7
+P2 -> G: IDO 2 7
+oooooooo
+o##.##..
+########
+.####.#.
+.##o##oo
+..####oo
+..###ooo
+.ooooooo
+G -> P1: HEDID 2 7
+P1 -> G: IDO 4 0
+oooooooo
+o##.##..
+########
+.####.#.
+oooo##oo
+..####oo
+..###ooo
+.ooooooo
+G -> P2: HEDID 4 0
+P2 -> G: IDO 3 0
+oooooooo
+o##.##..
+########
+#####.#.
+o#oo##oo
+..####oo
+..###ooo
+.ooooooo
+G -> P1: HEDID 3 0
+P1 -> G: IDO 6 1
+oooooooo
+o##.##..
+########
+#####.#.
+o#oo##oo
+..o###oo
+.ooooooo
+.ooooooo
+G -> P2: HEDID 6 1
+P2 -> G: IDO 5 0
+oooooooo
+o##.##..
+########
+#####.#.
+##oo##oo
+#.o###oo
+.ooooooo
+.ooooooo
+G -> P1: HEDID 5 0
+P1 -> G: IDO 3 7
+oooooooo
+o##.#o..
+######o#
+#####.#o
+##oo##oo
+#.o###oo
+.ooooooo
+.ooooooo
+G -> P2: HEDID 3 7
+P2 -> G: IDO 1 6
+oooooooo
+o##.###.
+########
+#####.#o
+##oo##oo
+#.o###oo
+.ooooooo
+.ooooooo
+G -> P1: HEDID 1 6
+P1 -> G: IDO 3 5
+oooooooo
+o##.#o#.
+#####o##
+#####ooo
+##oooooo
+#.oo#ooo
+.ooooooo
+.ooooooo
+G -> P2: HEDID 3 5
+P2 -> G: IDO 5 1
+oooooooo
+o##.#o#.
+#####o##
+#####ooo
+###ooooo
+#####ooo
+.ooooooo
+.ooooooo
+G -> P1: HEDID 5 1
+P1 -> G: IDO 6 0
+oooooooo
+o##.#o#.
+o###oo##
+o##o#ooo
+o#oooooo
+oo###ooo
+oooooooo
+.ooooooo
+G -> P2: HEDID 6 0
+P2 -> G: IDO 7 0
+oooooooo
+o##.#o#.
+o###oo##
+o##o#ooo
+o#oooooo
+oo###ooo
+o#oooooo
+#ooooooo
+G -> P1: HEDID 7 0
+P1 -> G: IDO 1 7
+oooooooo
+o##.#ooo
+o###oooo
+o##o#ooo
+o#oooooo
+oo###ooo
+o#oooooo
+#ooooooo
+G -> P2: HEDID 1 7
+P2 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 2
+oooooooo
+o##.#ooo
+o###oooo
+o##o#ooo
+o#oooooo
+oo###ooo
+o#oooooo
+#ooooooo
+G -> P1: HEDID -1 -1
+P1 -> G: IDO 1 3
+oooooooo
+oooooooo
+o#oooooo
+oo#o#ooo
+o#oooooo
+oo###ooo
+o#oooooo
+#ooooooo
+G -> P2: HEDID 1 3
+P2 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 2
+oooooooo
+oooooooo
+o#oooooo
+oo#o#ooo
+o#oooooo
+oo###ooo
+o#oooooo
+#ooooooo
+G -> P1: HEDID -1 -1
+P1 -> G: IDO -1 -1
+INVALID MOVE BY PLAYER 1
+oooooooo
+oooooooo
+o#oooooo
+oo#o#ooo
+o#oooooo
+oo###ooo
+o#oooooo
+#ooooooo
+Game over
+Score: 46

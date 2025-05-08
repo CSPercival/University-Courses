@@ -1,0 +1,4 @@
+g++ Board.cpp Bot_st00pid.cpp Bot_template.cpp Game.cpp main.cpp
+g++ Board.cpp Bot_st00pid.cpp Bot_template.cpp Game.cpp main.cpp Functions.cpp
+g++ Board.cpp Bot_st00pid.cpp Bot_template.cpp Game.cpp main.cpp Functions.cpp -o game
+g++ Board.cpp Bot_superior.cpp Bot_template.cpp main.cpp Functions.cpp -O2 -o game

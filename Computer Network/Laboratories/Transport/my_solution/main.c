@@ -11,18 +11,22 @@
 
 #include "aux.h"
 #include "setup.h"
+#include "receive.h"
+#include "send.h"
+#include "application.h"
 
 int main(int argc, char **argv)
 {
     setup(argc, argv);
 
-    int done = 0;
-    while(!done){
-        check_for_packets();
-        check_for_availability();
-        check_timers();
-        for(int ctr = 0, buff_idx = window.read_index; ctr <  CONST_window_size, ctr++, buff_idx = (buff_idx + 1) % CONST_window_size){
-
+    int bytes_analyzed = 0;
+    int ready;
+    while(bytes_analyzed < GLOBAL_data_length){
+        ready = wait_for_datagrams(window.dp[0]->timer.time_left);
+        if(ready != 0){
+            receive_datagrams();
         }
+        bytes_analyzed += past_data_to_app();
+        check_timers();
     }
 }

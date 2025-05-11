@@ -14,6 +14,7 @@
 #include <arpa/inet.h>
 #include <time.h>
 #include <limits.h>
+#include <math.h>
 
 #include "aux.h"
 
@@ -50,6 +51,17 @@ int string_to_int(char* ptr){
     return ans;
 }
 
+int cpy_int_to_string(char *dest, int src){
+    int src_s = (int)log10((double)src) + 1;
+    dest += src_s - 1;
+    while(src > 0){
+        (*dest) = src % 10 + '0';
+        dest--;
+        src /= 10;
+    }
+    return src_s;
+}
+
 int check_ip_address_correctness(char *ip_address){
     struct sockaddr_in sa;
     int result = inet_pton(AF_INET, ip_address, &sa.sin_addr);
@@ -64,7 +76,7 @@ int check_port_correctness(int port){
 
 void timer_set(struct Timer *t, int timeout){
     t->timeout = timeout;
-    t->time_left = timeout;
+    t->time_left = 0;
     t->running = 0;
 }
 void timer_start(struct Timer *t){
@@ -86,21 +98,53 @@ int timer_get(struct Timer *t){
     return t->time_left;
 }
 
-char* dest_ip;
-int dest_port;
-char* out_file_name;
-FILE *out_file;
-int data_length;
+void queue_push_front(struct CyclicQueue *q, struct QueueItem item){
+    if(q->size == CONST_max_queue_size) ERROR("Queue is full");
+    if(q->front == 0) q->front += CONST_max_queue_size;
+    q->items[--q->front] = item;
+    q->size++;
+}
+void queue_push_back(struct CyclicQueue *q, struct QueueItem item){
+    if(q->size == CONST_max_queue_size) ERROR("Queue is full");
+    q->items[q->rear++] = item;
+    if(q->rear == CONST_max_queue_size) q->rear = 0;
+    q->size++;
+}
+void queue_pop_front(struct CyclicQueue *q){
+    q->front++;
+    if(q->front == CONST_max_queue_size) q->front = 0;
+    q->size--;
+}
+struct QueueItem queue_front(struct CyclicQueue *q){
+    return q->items[q->front];
+}
+int queue_empty(struct CyclicQueue *q){
+    return q->size == 0;
+}
+int verify_queue_item(struct QueueItem qi){
+    return window.dp[qi.idx]->first_byte == qi.first_byte;
+}
+
+
+char* GLOBAL_dest_ip;
+int GLOBAL_bin_dest_ip;
+int GLOBAL_dest_port;
+char* GLOBAL_out_file_name;
+FILE *GLOBAL_out_file;
+int GLOBAL_data_length;
 
 int sock_fd_send;
 int sock_fd_list;
 
 struct CyclicBuffer window;
+struct CyclicQueue timeout_queue;
 
 const int CONST_window_size = 10;
 const int CONST_data_size = 1000;
-const int CONST_datagram_size = 1050;
+// const int CONST_datagram_size = 1050;
 const int CONST_timeout = 100;
+const int CONST_max_queue_size = 20000;
+
 
 // const int CONST_stage = 5000;
 // const int CONST_listening_port = 54321;

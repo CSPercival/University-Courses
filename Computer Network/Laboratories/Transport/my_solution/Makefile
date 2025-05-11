@@ -1,14 +1,15 @@
 CC = gcc
 CFLAGS = -std=c17 -Wall -Wextra
+LDFLAGS = -lm
 
-SRC = main.c aux.c setup.c
+SRC = main.c aux.c setup.c application.c receive.c send.c
 OBJ = $(SRC:.c=.o)
 EXEC = client
 
 all: $(EXEC)
 
 $(EXEC): $(OBJ)
-	$(CC) $(CFLAGS) -o $@ $^
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 
 %.o: %.c %.h
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -19,4 +20,4 @@ clean:
 distclean:
 	rm -f $(OBJ) $(EXEC)
 
-.PHONY: all clean
+.PHONY: all clean distclean

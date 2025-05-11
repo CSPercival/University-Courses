@@ -137,24 +137,12 @@ char* GLOBAL_out_file_name;
 FILE *GLOBAL_out_file;
 int GLOBAL_data_length;
 
-// int sock_fd_send;
-// int sock_fd_list;
 int sock_fd;
 
 struct CyclicBuffer window;
 struct CyclicQueue timeout_queue;
 
-const int CONST_window_size = 4000;
+const int CONST_window_size = 2000;
 const int CONST_data_size = 1000;
-// const int CONST_datagram_size = 1050;
 const int CONST_timeout = 100;
 const int CONST_max_queue_size = 20000;
-
-
-// const int CONST_stage = 5000;
-// const int CONST_listening_port = 54321;
-// const int CONST_last_seen_lim = 5;
-// const u_int32_t CONST_unreachable = INT_MAX;
-// const u_int32_t CONST_distance_lim = 10;
-// struct Interfaces neighbours;
-// struct RoutingTable routing;

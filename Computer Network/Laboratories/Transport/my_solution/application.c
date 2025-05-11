@@ -48,7 +48,7 @@ int pass_data_to_app(int all_analyzed_bytes){
         // printf("PASS bytes nr %d\n", window.dp[idx]->first_byte);
         write_to_file(window.dp[idx]->buffer, window.dp[idx]->data_length);
         bytes_analyzed += window.dp[idx]->data_length;
-        printf("Progres: %d\n", all_analyzed_bytes + bytes_analyzed);
+        printf("Progres: %.3f\n", (double)(all_analyzed_bytes + bytes_analyzed) * 100.0 / (double)GLOBAL_data_length);
         // printf("p ok2\n");
         update_window(idx);
         // printf("p ok3\n");

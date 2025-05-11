@@ -51,8 +51,6 @@ extern char* GLOBAL_out_file_name;
 extern FILE *GLOBAL_out_file;
 extern int GLOBAL_data_length;
 
-// extern int sock_fd_send;
-// extern int sock_fd_list;
 extern int sock_fd;
 
 extern struct CyclicBuffer window;
@@ -84,9 +82,4 @@ struct QueueItem queue_front(struct CyclicQueue *q);
 int queue_empty(struct CyclicQueue *q);
 int verify_queue_item(struct QueueItem qi);
 
-// extern const int CONST_stage;
-// extern const int CONST_listening_port;
-// extern const int CONST_last_seen_lim;
-// extern const u_int32_t CONST_unreachable;
-// extern const u_int32_t CONST_distance_lim;
 #endif

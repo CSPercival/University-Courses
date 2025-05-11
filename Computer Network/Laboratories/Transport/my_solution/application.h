@@ -5,6 +5,6 @@
 #include <unistd.h>
 #include <sys/types.h>
 
-int past_data_to_app();
+int pass_data_to_app(int all_analyzed_bytes);
 
 #endif

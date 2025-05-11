@@ -26,25 +26,32 @@ void update_window(int idx){
     window.dp[idx]->received = 0;
     if(window.dp[idx]->first_byte >= GLOBAL_data_length){
         window.read_index++;
+        if(window.read_index == CONST_window_size) window.read_index = 0;
         return;
     }
-    // timer_reset(&window.dp[idx]->timer);
-    window.dp[idx]->timer.time_left = 0;
+    timer_set(&window.dp[idx]->timer, CONST_timeout);
+    timer_start(&window.dp[idx]->timer);
+    // window.dp[idx]->timer.time_left = 0;
 
     struct QueueItem qi;
     qi.first_byte = window.dp[idx]->first_byte;
     qi.idx = idx;
     queue_push_front(&timeout_queue, qi);
     window.read_index++;
+    if(window.read_index == CONST_window_size) window.read_index = 0;
 }
 
-int past_data_to_app(){
+int pass_data_to_app(int all_analyzed_bytes){
     int idx = window.read_index;
     int bytes_analyzed = 0;
     while(window.dp[idx]->received){
+        // printf("PASS bytes nr %d\n", window.dp[idx]->first_byte);
         write_to_file(window.dp[idx]->buffer, window.dp[idx]->data_length);
         bytes_analyzed += window.dp[idx]->data_length;
+        printf("Progres: %d\n", all_analyzed_bytes + bytes_analyzed);
+        // printf("p ok2\n");
         update_window(idx);
+        // printf("p ok3\n");
         idx = window.read_index;
     }
     return bytes_analyzed;

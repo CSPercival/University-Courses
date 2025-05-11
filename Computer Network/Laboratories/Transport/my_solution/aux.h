@@ -51,8 +51,9 @@ extern char* GLOBAL_out_file_name;
 extern FILE *GLOBAL_out_file;
 extern int GLOBAL_data_length;
 
-extern int sock_fd_send;
-extern int sock_fd_list;
+// extern int sock_fd_send;
+// extern int sock_fd_list;
+extern int sock_fd;
 
 extern struct CyclicBuffer window;
 extern struct CyclicQueue timeout_queue;

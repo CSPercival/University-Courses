@@ -52,6 +52,10 @@ int string_to_int(char* ptr){
 }
 
 int cpy_int_to_string(char *dest, int src){
+    if(src == 0){
+        (*dest) = '0';
+        return 1;
+    }
     int src_s = (int)log10((double)src) + 1;
     dest += src_s - 1;
     while(src > 0){
@@ -133,13 +137,14 @@ char* GLOBAL_out_file_name;
 FILE *GLOBAL_out_file;
 int GLOBAL_data_length;
 
-int sock_fd_send;
-int sock_fd_list;
+// int sock_fd_send;
+// int sock_fd_list;
+int sock_fd;
 
 struct CyclicBuffer window;
 struct CyclicQueue timeout_queue;
 
-const int CONST_window_size = 10;
+const int CONST_window_size = 4000;
 const int CONST_data_size = 1000;
 // const int CONST_datagram_size = 1050;
 const int CONST_timeout = 100;

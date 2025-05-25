@@ -1,0 +1,5 @@
+http://virbian:8888/page.html
+http://virtual-domain.example.com:8888/
+http://virtual-domain.example.com:8888/../virbian/index.html
+telnet virbian 8888
+curl -v --path-as-is http://virtual-domain.example.com:8888/../virbian/index.html
